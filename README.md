@@ -1,8 +1,28 @@
-# React + Vite
+# 🧑‍💼 Employee Management System (EMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Employee Management System built with **React.js**, designed for both admin and employee logins. Admins can manage the system, while employees can view their dashboard with personalized data.
 
-Currently, two official plugins are available:
+## 💡 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 **Login System**
+  - Admin Login (`admin@me.com` / `123`)
+  - Employee Login via credentials in local storage
+- 🧑‍💻 **Employee Dashboard**
+  - Personalized view
+  - Employee info display
+- 🛠️ **Admin Dashboard**
+  - Basic Admin Interface
+- 🔐 **Authentication Persistence**
+  - Stores logged-in user in localStorage
+- 🔄 **Logout Functionality**
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (with Hooks & Context API)
+- **Styling:** Basic CSS / Tailwind (if used)
+- **State Management:** React `useState`, `useEffect`, `useContext`
+- **Routing:** (Add if you used React Router)
+- **Persistence:** `localStorage`
+- **Tooling:** Vite (fast bundler for development)
+
+
